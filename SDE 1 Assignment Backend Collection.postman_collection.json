@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "8708578a-05e4-42c5-9cac-eb676a0a24ce",
+		"name": "SDE 1 Assignment Backend Collection",
+		"description": "This collection includes requests for the Upload API and the Status API for the SDE 1 Assignment Backend.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Upload CSV",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/status/{{request_id}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"status",
+						"{{request_id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

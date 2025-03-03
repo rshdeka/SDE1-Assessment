@@ -1,0 +1,3 @@
+S. No.,Product Name,Input Image Urls,Output Image Urls
+1,SKU1,"https://wallpaperaccess.com/full/4723250.jpg, https://wallpaperaccess.com/full/4958474.jpg, https://wallpaperaccess.com/full/4958475.jpg","https://storage.example.com/2fdc5fbf-3248-45a6-a83a-3dbf13b6c041.jpg, https://storage.example.com/306875d3-aab9-44a7-98a3-df8d6966d7aa.jpg, https://storage.example.com/51c17e53-c70e-4ddb-84f7-2e450a060feb.jpg"
+2,SKU2,"https://wallpaperaccess.com/full/4723250.jpg, https://wallpaperaccess.com/full/4958474.jpg, https://wallpaperaccess.com/full/4958475.jpg","https://storage.example.com/402851c5-72ae-4003-a760-4fec486b91c6.jpg, https://storage.example.com/28a3dc0d-a8fa-43f5-95c1-09ba0ae2fec2.jpg, https://storage.example.com/e9f4e5ed-9f4e-4a90-9664-9236b128ea24.jpg"
